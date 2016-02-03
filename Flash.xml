@@ -257,6 +257,90 @@
                                                                                 <field name="NUM">250</field>
                                                                               </block>
                                                                             </value>
+                                                                            <next>
+                                                                              <block type="led_select" id="328" inline="true">
+                                                                                <field name="ACTION">FLASH</field>
+                                                                                <value name="LED">
+                                                                                  <block type="math_number" id="329">
+                                                                                    <field name="NUM">0</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <next>
+                                                                                  <block type="led_select" id="330" inline="true">
+                                                                                    <field name="ACTION">FLASH</field>
+                                                                                    <value name="LED">
+                                                                                      <block type="math_number" id="331">
+                                                                                        <field name="NUM">3</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <next>
+                                                                                      <block type="robot_delay" id="332" inline="true">
+                                                                                        <value name="DELAY">
+                                                                                          <block type="math_number" id="333">
+                                                                                            <field name="NUM">250</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <next>
+                                                                                          <block type="movement_stop" id="343">
+                                                                                            <next>
+                                                                                              <block type="robot_delay" id="344" inline="true">
+                                                                                                <value name="DELAY">
+                                                                                                  <block type="math_number" id="345">
+                                                                                                    <field name="NUM">250</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                                <next>
+                                                                                                  <block type="led_select" id="346" inline="true">
+                                                                                                    <field name="ACTION">FLASH</field>
+                                                                                                    <value name="LED">
+                                                                                                      <block type="math_number" id="347">
+                                                                                                        <field name="NUM">0</field>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                    <next>
+                                                                                                      <block type="led_select" id="350" inline="true">
+                                                                                                        <field name="ACTION">FLASH</field>
+                                                                                                        <value name="LED">
+                                                                                                          <block type="math_number" id="351">
+                                                                                                            <field name="NUM">3</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                        <next>
+                                                                                                          <block type="robot_delay" id="348" inline="true">
+                                                                                                            <value name="DELAY">
+                                                                                                              <block type="math_number" id="349">
+                                                                                                                <field name="NUM">250</field>
+                                                                                                              </block>
+                                                                                                            </value>
+                                                                                                            <next>
+                                                                                                              <block type="movement_stop" id="352">
+                                                                                                                <next>
+                                                                                                                  <block type="robot_delay" id="353" inline="true">
+                                                                                                                    <value name="DELAY">
+                                                                                                                      <block type="math_number" id="354">
+                                                                                                                        <field name="NUM">250</field>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                  </block>
+                                                                                                                </next>
+                                                                                                              </block>
+                                                                                                            </next>
+                                                                                                          </block>
+                                                                                                        </next>
+                                                                                                      </block>
+                                                                                                    </next>
+                                                                                                  </block>
+                                                                                                </next>
+                                                                                              </block>
+                                                                                            </next>
+                                                                                          </block>
+                                                                                        </next>
+                                                                                      </block>
+                                                                                    </next>
+                                                                                  </block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
                                                                           </block>
                                                                         </next>
                                                                       </block>
@@ -289,33 +373,6 @@
                 </next>
               </block>
             </next>
-          </block>
-        </next>
-      </block>
-    </next>
-  </block>
-  <block type="led_select" id="328" inline="true" x="655" y="140">
-    <field name="ACTION">FLASH</field>
-    <value name="LED">
-      <block type="math_number" id="329">
-        <field name="NUM">0</field>
-      </block>
-    </value>
-    <next>
-      <block type="robot_delay" id="332" inline="true">
-        <value name="DELAY">
-          <block type="math_number" id="333">
-            <field name="NUM">250</field>
-          </block>
-        </value>
-        <next>
-          <block type="led_select" id="330" inline="true">
-            <field name="ACTION">FLASH</field>
-            <value name="LED">
-              <block type="math_number" id="331">
-                <field name="NUM">3</field>
-              </block>
-            </value>
           </block>
         </next>
       </block>
