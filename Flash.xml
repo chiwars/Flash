@@ -399,69 +399,78 @@
                                                                                                                           </block>
                                                                                                                         </statement>
                                                                                                                         <next>
-                                                                                                                          <block type="movement_stutter" id="521">
-                                                                                                                            <next>
-                                                                                                                              <block type="led_select" id="561" inline="true">
-                                                                                                                                <field name="ACTION">ON</field>
-                                                                                                                                <value name="LED">
-                                                                                                                                  <block type="math_number" id="562">
-                                                                                                                                    <field name="NUM">0</field>
-                                                                                                                                  </block>
-                                                                                                                                </value>
+                                                                                                                          <block type="controls_repeat" id="678" inline="true">
+                                                                                                                            <value name="TIMES">
+                                                                                                                              <block type="math_number" id="685">
+                                                                                                                                <field name="NUM">0</field>
+                                                                                                                              </block>
+                                                                                                                            </value>
+                                                                                                                            <statement name="DO">
+                                                                                                                              <block type="movement_stutter" id="521">
                                                                                                                                 <next>
-                                                                                                                                  <block type="robot_delay" id="565" inline="true">
-                                                                                                                                    <value name="DELAY">
-                                                                                                                                      <block type="math_number" id="566">
-                                                                                                                                        <field name="NUM">100</field>
+                                                                                                                                  <block type="led_select" id="561" inline="true">
+                                                                                                                                    <field name="ACTION">ON</field>
+                                                                                                                                    <value name="LED">
+                                                                                                                                      <block type="math_number" id="562">
+                                                                                                                                        <field name="NUM">0</field>
                                                                                                                                       </block>
                                                                                                                                     </value>
                                                                                                                                     <next>
-                                                                                                                                      <block type="led_select" id="563" inline="true">
-                                                                                                                                        <field name="ACTION">ON</field>
-                                                                                                                                        <value name="LED">
-                                                                                                                                          <block type="math_number" id="564">
-                                                                                                                                            <field name="NUM">3</field>
+                                                                                                                                      <block type="robot_delay" id="565" inline="true">
+                                                                                                                                        <value name="DELAY">
+                                                                                                                                          <block type="math_number" id="566">
+                                                                                                                                            <field name="NUM">100</field>
                                                                                                                                           </block>
                                                                                                                                         </value>
                                                                                                                                         <next>
-                                                                                                                                          <block type="robot_delay" id="353" inline="true">
-                                                                                                                                            <value name="DELAY">
-                                                                                                                                              <block type="math_number" id="354">
-                                                                                                                                                <field name="NUM">100</field>
+                                                                                                                                          <block type="led_select" id="563" inline="true">
+                                                                                                                                            <field name="ACTION">ON</field>
+                                                                                                                                            <value name="LED">
+                                                                                                                                              <block type="math_number" id="564">
+                                                                                                                                                <field name="NUM">3</field>
                                                                                                                                               </block>
                                                                                                                                             </value>
                                                                                                                                             <next>
-                                                                                                                                              <block type="led_select" id="559" inline="true">
-                                                                                                                                                <field name="ACTION">ON</field>
-                                                                                                                                                <value name="LED">
-                                                                                                                                                  <block type="math_number" id="560">
-                                                                                                                                                    <field name="NUM">2</field>
+                                                                                                                                              <block type="robot_delay" id="353" inline="true">
+                                                                                                                                                <value name="DELAY">
+                                                                                                                                                  <block type="math_number" id="354">
+                                                                                                                                                    <field name="NUM">100</field>
                                                                                                                                                   </block>
                                                                                                                                                 </value>
                                                                                                                                                 <next>
-                                                                                                                                                  <block type="robot_delay" id="567" inline="true">
-                                                                                                                                                    <value name="DELAY">
-                                                                                                                                                      <block type="math_number" id="568">
-                                                                                                                                                        <field name="NUM">100</field>
+                                                                                                                                                  <block type="led_select" id="559" inline="true">
+                                                                                                                                                    <field name="ACTION">ON</field>
+                                                                                                                                                    <value name="LED">
+                                                                                                                                                      <block type="math_number" id="560">
+                                                                                                                                                        <field name="NUM">2</field>
                                                                                                                                                       </block>
                                                                                                                                                     </value>
                                                                                                                                                     <next>
-                                                                                                                                                      <block type="led_select" id="557" inline="true">
-                                                                                                                                                        <field name="ACTION">ON</field>
-                                                                                                                                                        <value name="LED">
-                                                                                                                                                          <block type="math_number" id="558">
-                                                                                                                                                            <field name="NUM">5</field>
+                                                                                                                                                      <block type="robot_delay" id="567" inline="true">
+                                                                                                                                                        <value name="DELAY">
+                                                                                                                                                          <block type="math_number" id="568">
+                                                                                                                                                            <field name="NUM">100</field>
                                                                                                                                                           </block>
                                                                                                                                                         </value>
                                                                                                                                                         <next>
-                                                                                                                                                          <block type="robot_delay" id="569" inline="true">
-                                                                                                                                                            <value name="DELAY">
-                                                                                                                                                              <block type="math_number" id="570">
-                                                                                                                                                                <field name="NUM">100</field>
+                                                                                                                                                          <block type="led_select" id="557" inline="true">
+                                                                                                                                                            <field name="ACTION">ON</field>
+                                                                                                                                                            <value name="LED">
+                                                                                                                                                              <block type="math_number" id="558">
+                                                                                                                                                                <field name="NUM">5</field>
                                                                                                                                                               </block>
                                                                                                                                                             </value>
                                                                                                                                                             <next>
-                                                                                                                                                              <block type="movement_stop" id="583"></block>
+                                                                                                                                                              <block type="robot_delay" id="569" inline="true">
+                                                                                                                                                                <value name="DELAY">
+                                                                                                                                                                  <block type="math_number" id="570">
+                                                                                                                                                                    <field name="NUM">100</field>
+                                                                                                                                                                  </block>
+                                                                                                                                                                </value>
+                                                                                                                                                                <next>
+                                                                                                                                                                  <block type="movement_stop" id="583"></block>
+                                                                                                                                                                </next>
+                                                                                                                                                              </block>
                                                                                                                                                             </next>
                                                                                                                                                           </block>
                                                                                                                                                         </next>
@@ -478,7 +487,7 @@
                                                                                                                                   </block>
                                                                                                                                 </next>
                                                                                                                               </block>
-                                                                                                                            </next>
+                                                                                                                            </statement>
                                                                                                                           </block>
                                                                                                                         </next>
                                                                                                                       </block>
