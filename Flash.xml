@@ -402,7 +402,7 @@
                                                                                                                           <block type="controls_repeat" id="678" inline="true">
                                                                                                                             <value name="TIMES">
                                                                                                                               <block type="math_number" id="685">
-                                                                                                                                <field name="NUM">0</field>
+                                                                                                                                <field name="NUM">9</field>
                                                                                                                               </block>
                                                                                                                             </value>
                                                                                                                             <statement name="DO">
