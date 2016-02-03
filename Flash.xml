@@ -1,9 +1,8 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="67" inline="false" x="96" y="47">
-    <field name="MODE">UNTIL</field>
-    <value name="NUMBER">
-      <block type="sensor_button" id="237">
-        <field name="OBJECT">UP</field>
+  <block type="controls_repeat" id="258" inline="true" x="145" y="56">
+    <value name="TIMES">
+      <block type="math_number" id="265">
+        <field name="NUM">2</field>
       </block>
     </value>
     <statement name="DO">
@@ -120,5 +119,63 @@
         </next>
       </block>
     </statement>
+    <next>
+      <block type="led_select" id="266" inline="true">
+        <field name="ACTION">FLASH</field>
+        <value name="LED">
+          <block type="math_number" id="267">
+            <field name="NUM">1</field>
+          </block>
+        </value>
+        <next>
+          <block type="led_select" id="268" inline="true">
+            <field name="ACTION">FLASH</field>
+            <value name="LED">
+              <block type="math_number" id="269">
+                <field name="NUM">2</field>
+              </block>
+            </value>
+            <next>
+              <block type="robot_delay" id="296" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="297">
+                    <field name="NUM">250</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="led_select" id="298" inline="true">
+                    <field name="ACTION">FLASH</field>
+                    <value name="LED">
+                      <block type="math_number" id="299">
+                        <field name="NUM">4</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="led_select" id="300" inline="true">
+                        <field name="ACTION">FLASH</field>
+                        <value name="LED">
+                          <block type="math_number" id="301">
+                            <field name="NUM">5</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="robot_delay" id="302" inline="true">
+                            <value name="DELAY">
+                              <block type="math_number" id="303">
+                                <field name="NUM">250</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
   </block>
 </xml>
